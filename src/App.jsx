@@ -60,7 +60,7 @@ export const App = () => {
         onClickDelete={onClickDelete}
       />
       {completeTodos.length >= 5 && (
-        <p style={{ color: "red" }}>登録できる完了TODOは５個までです</p>
+        <p style={{ color: "green" }}>登録できる完了TODOは５個までです</p>
       )}
       <CompleteTodos todos={completeTodos} onClickBack={onClickBack} />
     </>
